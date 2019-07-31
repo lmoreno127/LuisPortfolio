@@ -8,7 +8,7 @@ class Nav extends React.Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg navbar-light ">
+        <nav className="navbar navbar-expand-lg navbar-dark">
           <button
             className="navbar-toggler"
             type="button"
@@ -21,7 +21,7 @@ class Nav extends React.Component {
             <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div className="navbar-nav">
+            <div className="navbar-nav ml-auto">
               <a className="nav-item nav-link active" href="#">
                 About Me <span className="sr-only">(current)</span>
               </a>
