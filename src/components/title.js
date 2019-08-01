@@ -5,16 +5,14 @@ class Title extends React.Component {
     const opts = {
       strings: [
         "Hi, I'm Luis ",
-        "I'm Fullstack Developer",
-        "I'm Mathematician",
-        "I'm Community Manager",
-        "I Enjoy Programming a Lot",
-        "I Enjoy to Travel",
-        "I Enjoy Mathematics",
+        "I'm",
+        "Fullstack Developer",
+        "Mathematician",
+        "Community Manager",
+        "Traveler",
         "Welcome to my Page"
       ],
       typeSpeed: 100,
-      smartBackspace: true,
       loop: true
     };
     this.typed = new Typed(this.el, opts);

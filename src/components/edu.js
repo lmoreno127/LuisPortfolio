@@ -1,28 +1,38 @@
 import React from "react";
-
-function Education() {
-  return (
-    <div id="education">
-      <ul>
-        <li>
-          <span className="ed">Full Stack Developer</span>
-          <br />
-          <span className="place">Bogotá Bootcamp</span>
-          <br />
-          <span className="country">Bogotá-Colombia</span>
-          <br />
-        </li>
-        <li>
-          <span className="ed">Mathematician</span>
-          <br />
-          <span className="place">Pontificia Universidad Javeriana</span>
-          <br />
-          <span className="country">Bogotá-Colombia</span>
-          <br />
-        </li>
-      </ul>
-    </div>
-  );
+import sr from "./ScrollReveal";
+class Education extends React.Component {
+  componentDidMount() {
+    const config = {
+      origin: "left",
+      duration: 1500,
+      delay: 180,
+      distance: "700px",
+      scale: 4,
+      easing: "ease"
+    };
+    sr.reveal(this.refs.edu, config);
+  }
+  render() {
+    return (
+      <div id="education" ref="edu">
+        <h2 id="tie">Education</h2>
+        <ul>
+          <li>
+            <h3>Full Stack Developer</h3>
+            <br />
+            <span className="place">Bogotá Bootcamp</span>
+            <br />
+          </li>
+          <li>
+            <h3>Mathematician</h3>
+            <br />
+            <span className="place">Pontificia Universidad Javeriana</span>
+            <br />
+          </li>
+        </ul>
+      </div>
+    );
+  }
 }
 
 export default Education;

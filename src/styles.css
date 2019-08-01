@@ -41,7 +41,50 @@ li{
     color:black;
 }
 #education{
+    
     position: relative;
     top:300px;
     background-color:white;
+    padding-top:5px;
+    padding-bottom: 10px;
+}
+#tie{
+    margin-left:70px;
+}
+.logo{
+    position:relative;
+    width:130px;
+    height:130px;
+    margin-top:40px;
+}
+#skills{
+    display:flex;
+    position: relative;
+    top:350px;
+}
+#st{
+    margin-left:80px;
+}
+#skcontainer{
+    position:relative;
+    top:100px;
+    right:60px;
+}
+#projects{
+    position: relative;
+    top:450px;
+}
+#contact{
+    position:relative;
+    top:500px;
+}
+#footer{
+    position:relative;
+    top:550px;
+}
+.activeb{
+    background-color: crimson;
+}
+.fa-envelope{
+    color:black;
 }
