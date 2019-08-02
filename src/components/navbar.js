@@ -15,9 +15,18 @@ class Nav extends React.Component {
     var proji = document.querySelector(".proji");
     var conti = document.querySelector(".conti");
     document.addEventListener("scroll", e => {
-      if (window.scrollY > 793) {
+      if (window.scrollY > 1828) {
+        this.removehighligth();
+        this.highlight(conti);
+      } else if (window.scrollY > 1328) {
+        this.removehighligth();
+        this.highlight(proji);
+      } else if (window.scrollY > 812) {
         this.removehighligth();
         this.highlight(skilli);
+      } else {
+        this.removehighligth();
+        this.highlight(abouti);
       }
       console.log(window.scrollY);
     });
