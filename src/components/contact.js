@@ -1,38 +1,51 @@
 import React from "react";
-
-function Contact() {
-  return (
-    <div id="contact">
-      <h2>Contact Me</h2>
-      <form>
-        <div class="form-group">
-          <label for="name">Email</label>
-          <input
-            type="text"
-            class="form-control"
-            id="name"
-            placeholder="Name"
-          />
-        </div>
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input
-            type="email"
-            class="form-control"
-            id="email"
-            placeholder="Email"
-          />
-        </div>
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea class="form-control" id="message" rows="3" />
-        </div>
-        <button type="button" class="btn btn-primary">
-          Submit
-        </button>
-      </form>
-    </div>
-  );
+import sr from "./ScrollReveal";
+class Contact extends React.Component {
+  componentDidMount() {
+    const config = {
+      origin: "left",
+      duration: 1500,
+      delay: 180,
+      distance: "700px",
+      scale: 4,
+      easing: "ease"
+    };
+    sr.reveal(this.refs.cont, config);
+  }
+  render() {
+    return (
+      <div id="contact" ref="cont">
+        <h2 id="contt">Contact Me</h2>
+        <form>
+          <div className="form-group">
+            <label htmlFor="email">Email</label>
+            <input
+              type="email"
+              className="form-control"
+              id="email"
+              placeholder="Email"
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="name">Name</label>
+            <input
+              type="text"
+              className="form-control"
+              id="name"
+              placeholder="Name"
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="message">Message</label>
+            <textarea className="form-control" id="message" rows="3" />
+          </div>
+          <button type="button" className="btn btn-success">
+            Submit
+          </button>
+        </form>
+      </div>
+    );
+  }
 }
 
 export default Contact;

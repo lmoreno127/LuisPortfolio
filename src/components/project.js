@@ -1,11 +1,7 @@
 import React from "react";
 
 function Project() {
-  return (
-    <div>
-      <h2>Project</h2>
-    </div>
-  );
+  return <div />;
 }
 
 export default Project;

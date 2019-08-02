@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 .large-header {
     position: absolute;
     width: 100%;
@@ -81,10 +84,54 @@ li{
 #footer{
     position:relative;
     top:550px;
+    display:flex;
+    
 }
 .activeb{
     background-color: crimson;
 }
-.fa-envelope{
-    color:black;
+#envelope{
+    font-size: 30px;
+    margin-left:671px;
+    margin-bottom: 20px;
+}
+#github{
+    font-size: 30px;
+    margin-left:20px;
+}
+#linkedin{
+    font-size: 30px;
+    margin-left:20px;
+}
+#envelope:hover{
+    cursor: pointer;
+}
+#github:hover{
+    cursor: pointer;
+}
+#linkedin:hover{
+    cursor:pointer;
+}
+#copyr{
+    font-weight: bold;
+    position: relative;
+    top:57px;
+    right:134px;
+}
+#proti{
+    margin-left:80px;
+}
+#contt{
+    margin-left:80px;
+}
+label{
+    margin-left:82px;
+    margin-top:3px;
+}
+.form-control{
+    width:40%;
+    margin-left:80px;
+}
+button{
+    margin-left:80px;
 }
