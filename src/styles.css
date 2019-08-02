@@ -140,6 +140,7 @@ button{
 #carousel{
     margin-top:45px;
     margin-left:209px;
+    
 }
 .carousel-control-prev{
   left:-78px;
@@ -158,4 +159,10 @@ h2{
 .carousel-indicators{
     top:303px;
     right:202px;
+}
+.carousel-caption{
+    right: 30%;
+}
+#se{
+    width:100px;
 }

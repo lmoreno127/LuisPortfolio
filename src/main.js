@@ -8,22 +8,24 @@ import Skills from "./components/skills";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
-function Main() {
-  return (
-    <div>
-      <Nav />
-      <div id="large-header" className="large-header">
-        <canvas id="demo-canvas" />
+class Main extends React.Component {
+  render() {
+    return (
+      <div>
+        <Nav />
+        <div id="large-header" className="large-header">
+          <canvas id="demo-canvas" />
+        </div>
+        <Title />
+        <Description />
+        <Education />
+        <Skills />
+        <Projects />
+        <Contact />
+        <Footer />
       </div>
-      <Title />
-      <Description />
-      <Education />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
-    </div>
-  );
+    );
+  }
 }
 
 export default Main;

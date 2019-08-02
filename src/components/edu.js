@@ -2,6 +2,7 @@ import React from "react";
 import sr from "./ScrollReveal";
 class Education extends React.Component {
   componentDidMount() {
+    window.scrollTo(0, 0);
     const config = {
       origin: "left",
       duration: 1500,

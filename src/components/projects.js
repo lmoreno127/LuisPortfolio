@@ -1,5 +1,6 @@
 import React from "react";
 import Im from "./p1.png";
+import Pro from "./work.png";
 import Carousel from "react-bootstrap/Carousel";
 import sr from "./ScrollReveal";
 class Projects extends React.Component {
@@ -21,17 +22,21 @@ class Projects extends React.Component {
         <Carousel id="carousel">
           <Carousel.Item>
             <img className="d-block w-40" src={Im} alt="First slide" />
-            <Carousel.Caption />
+            <Carousel.Caption>
+              <h3>Portfolio</h3>
+            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="d-block w-40" src={Im} alt="Third slide" />
-
-            <Carousel.Caption />
+            <img className="d-block w-40" src={Im} alt="First slide" />
+            <Carousel.Caption>
+              <h3>Portfolio</h3>
+            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="d-block w-40" src={Im} alt="Third slide" />
-
-            <Carousel.Caption />
+            <img className="d-block w-40" src={Im} alt="First slide" />
+            <Carousel.Caption>
+              <h3>Portfolio</h3>
+            </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
       </div>
