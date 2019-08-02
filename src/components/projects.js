@@ -1,6 +1,5 @@
 import React from "react";
 import Im from "./p1.png";
-import Pro from "./work.png";
 import Carousel from "react-bootstrap/Carousel";
 import sr from "./ScrollReveal";
 class Projects extends React.Component {
