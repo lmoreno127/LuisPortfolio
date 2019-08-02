@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
 body{
     overflow-x: hidden;
+    font-family: 'Righteous', cursive;
 }
 .large-header {
     position: absolute;
@@ -134,4 +136,26 @@ label{
 }
 button{
     margin-left:80px;
+}
+#carousel{
+    margin-top:45px;
+    margin-left:209px;
+}
+.carousel-control-prev{
+  left:-78px;
+  top:337px;
+}
+h2{
+    font-size: 3rem;
+}
+.carousel-control-next{
+    right:127px;
+    top:337px;
+}
+#carousel li{
+    right:10px;
+}
+.carousel-indicators{
+    top:303px;
+    right:202px;
 }

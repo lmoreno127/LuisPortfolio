@@ -20,7 +20,6 @@ class Footer extends React.Component {
   }
 
   render() {
-    const ref = React.createRef();
     return (
       <div id="footer">
         <a href="mailto:luismorenor127@hotmail.com" ref="env">
