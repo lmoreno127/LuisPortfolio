@@ -1,6 +1,6 @@
 import React from "react";
 import sr from "./ScrollReveal";
-import bb from "./bb.png";
+
 class Education extends React.Component {
   componentDidMount() {
     const config = {
