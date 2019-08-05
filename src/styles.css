@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Prompt&display=swap');
 body{
     overflow-x: hidden;
     font-family: 'Righteous', cursive;
+    font-size:1.2rem;
 }
 .large-header {
     position: absolute;
@@ -33,12 +35,12 @@ nav{
     color:white;
     margin-left:70px;
     margin-right:70px;
-    text-align:justify;
     position: relative;
     top:30vh;
 }
 ul{
     margin-left:50px;
+    list-style-type: none;
     
 }
 li{
@@ -165,4 +167,9 @@ h2{
 }
 #se{
     width:100px;
+}
+#education p{
+    font-family: 'Prompt', sans-serif;
+    margin-top:20px;
+    margin-right: 359px;
 }

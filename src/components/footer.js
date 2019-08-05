@@ -10,7 +10,7 @@ class Footer extends React.Component {
       origin: "top",
       duration: 1500,
       delay: 180,
-      distance: "700px",
+      distance: "200px",
       scale: 4,
       easing: "ease"
     };

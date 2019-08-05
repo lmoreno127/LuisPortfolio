@@ -4,8 +4,7 @@ class Title extends React.Component {
   componentDidMount() {
     const opts = {
       strings: [
-        "Hi, I'm Luis ",
-        "I'm",
+        "Luis Moreno",
         "Fullstack Developer",
         "Mathematician",
         "Community Manager",

@@ -1,5 +1,6 @@
 import React from "react";
 import sr from "./ScrollReveal";
+import bb from "./bb.png";
 class Education extends React.Component {
   componentDidMount() {
     const config = {
@@ -19,15 +20,19 @@ class Education extends React.Component {
         <ul>
           <li>
             <h3>Full Stack Developer</h3>
-            <br />
+
             <span className="place">Bogotá Bootcamp</span>
-            <br />
+
+            <p>
+              Bogotá Bootcamp is a full-time, 10-week full-stack web development
+              bootcamp which I learned web development basics like Git and
+              Github, HTML, Ruby on Rails and JavaScript using the following
+              frameworks: Rails,React,Rspec, JQuery, and Bootstrap.{" "}
+            </p>
           </li>
           <li>
             <h3>Mathematician</h3>
-            <br />
             <span className="place">Pontificia Universidad Javeriana</span>
-            <br />
           </li>
         </ul>
       </div>

@@ -15,20 +15,20 @@ class Nav extends React.Component {
     var proji = document.querySelector(".proji");
     var conti = document.querySelector(".conti");
     document.addEventListener("scroll", e => {
-      if (window.scrollY > 1700) {
+      console.log(window.scrollY);
+      if (window.scrollY > 1850) {
         this.removehighligth();
         this.highlight(conti);
-      } else if (window.scrollY > 1328) {
+      } else if (window.scrollY > 1300) {
         this.removehighligth();
         this.highlight(proji);
-      } else if (window.scrollY > 812) {
+      } else if (window.scrollY > 1010) {
         this.removehighligth();
         this.highlight(skilli);
       } else {
         this.removehighligth();
         this.highlight(abouti);
       }
-      console.log(window.scrollY);
     });
   }
   render() {
@@ -48,18 +48,21 @@ class Nav extends React.Component {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav ml-auto">
-              <a className="nav-item nav-link active abouti activeb" href="#">
+              <a
+                className="nav-item nav-link active abouti activeb"
+                href="#large-header"
+              >
                 About Me <span className="sr-only">(current)</span>
               </a>
-              <a className="nav-item nav-link active skilli" href="#">
+              <a className="nav-item nav-link active skilli" href="#skills">
                 Skills
               </a>
-              <a className="nav-item nav-link active proji" href="#">
+              <a className="nav-item nav-link active proji" href="#projects">
                 Projects
               </a>
               <a
                 className="nav-item nav-link active conti"
-                href="#"
+                href="#contact"
                 tabIndex="-1"
                 aria-disabled="true"
               >

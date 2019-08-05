@@ -12,6 +12,7 @@ import glogo from "./git.png";
 import hlogo from "./heroku.jpg";
 import blogo from "./bootstrap.png";
 import sr from "./ScrollReveal";
+import pythonl from "./python.png";
 class Skills extends React.Component {
   componentDidMount() {
     const config = {
@@ -50,6 +51,9 @@ class Skills extends React.Component {
             </div>
           </div>
           <div className="row">
+            <div className="col">
+              <Tec imr={pythonl} tname="Python" />
+            </div>
             <div className="col">
               <Tec imr={jqlogo} tname="JQuery" />
             </div>
