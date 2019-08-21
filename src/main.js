@@ -20,7 +20,7 @@ class Main extends React.Component {
         <Education />
         <Skills />
         <Projects />
-        <Contact />
+        {/* <Contact /> */}
         <Footer />
       </div>
     );

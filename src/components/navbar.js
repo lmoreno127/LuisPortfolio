@@ -16,13 +16,14 @@ class Nav extends React.Component {
     var conti = document.querySelector(".conti");
     document.addEventListener("scroll", e => {
       console.log(window.scrollY);
-      if (window.scrollY > 1850) {
-        this.removehighligth();
-        this.highlight(conti);
-      } else if (window.scrollY > 1300) {
+      // if (window.scrollY > 1800) {
+      //   this.removehighligth();
+      //   this.highlight(conti);
+      // } else
+      if (window.scrollY > 1370) {
         this.removehighligth();
         this.highlight(proji);
-      } else if (window.scrollY > 1010) {
+      } else if (window.scrollY > 876) {
         this.removehighligth();
         this.highlight(skilli);
       } else {
@@ -60,14 +61,14 @@ class Nav extends React.Component {
               <a className="nav-item nav-link active proji" href="#projects">
                 Projects
               </a>
-              <a
+              {/* <a
                 className="nav-item nav-link active conti"
                 href="#contact"
                 tabIndex="-1"
                 aria-disabled="true"
               >
                 Contact Me
-              </a>
+              </a> */}
             </div>
           </div>
         </nav>
